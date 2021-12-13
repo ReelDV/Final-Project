@@ -86,3 +86,4 @@ Received Import Request.
 Start importing Assets/Table_1k_mat2.fbx using Guid(000c445924586b24baf21fd8d7e4b0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7da141bd48b9233a5b228747a33035') in 0.948842 seconds
   Import took 1.005991 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
