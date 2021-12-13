@@ -94,3 +94,4 @@ Received Import Request.
 Start importing Assets/Scripts/Student Scripts/VolumeChange.cs using Guid(250957cee4869fd499f14d175abf16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f71b85a9283face1326c28fc700498') in 0.022395 seconds
   Import took 0.029430 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
