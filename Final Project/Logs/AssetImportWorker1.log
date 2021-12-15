@@ -1,0 +1,216 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32596 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Final Project/Final Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56027
+Successfully changed project path to: D:/Final Project/Final Project
+D:/Final Project/Final Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.40 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Final Project/Final Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002739 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.22 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Final Project\Final Project\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Final Project\Final Project\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.171 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 155.2 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 3.210800 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.124600 ms MarkObjects: 1.750700 ms  DeleteObjects: 1.078100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/TV.mat
+  artifactKey: Guid(dc9750a6061c60c4998c34cade5fa80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TV.mat using Guid(dc9750a6061c60c4998c34cade5fa80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8f85dd0a1bff4026687cf9a6f6350a') in 0.230848 seconds
+  Import took 0.256980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001574 seconds.
+  path: Assets/Materials/Interaction Scene/black.mat
+  artifactKey: Guid(ac5ce2a1b67878745b13e63cb4fa4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Interaction Scene/black.mat using Guid(ac5ce2a1b67878745b13e63cb4fa4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79bf50f40850ab0561a07d77f36d3c8') in 0.027059 seconds
+  Import took 0.075643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.164666 seconds.
+  path: Assets/End Door 2k.obj
+  artifactKey: Guid(0428fa7e7f844b94fb48d0188ee58c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/End Door 2k.obj using Guid(0428fa7e7f844b94fb48d0188ee58c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb5c29c938f57c63ab48613ded771c1') in 0.121671 seconds
+  Import took 0.145960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 386.727668 seconds.
+  path: Assets/Material_Roughness.png
+  artifactKey: Guid(ab668fd8f16e831438cfcdb076e9c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material_Roughness.png using Guid(ab668fd8f16e831438cfcdb076e9c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d7f8b68032bccc82d70816e8963277') in 0.070238 seconds
+  Import took 0.077575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.913623 seconds.
+  path: Assets/Material_Base_color.png
+  artifactKey: Guid(62f0a2e4919cba44b98aebbd9abbbbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material_Base_color.png using Guid(62f0a2e4919cba44b98aebbd9abbbbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1be0f3ecbb245ae1aef06dcd7cb69') in 0.015967 seconds
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.816862 seconds.
+  path: Assets/Material_Height.png
+  artifactKey: Guid(456a76e2a89eb8747924972b331f1b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material_Height.png using Guid(456a76e2a89eb8747924972b331f1b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06ce03ab031f9276c98af4b20d314e0') in 0.019797 seconds
+  Import took 0.044502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.140875 seconds.
+  path: Assets/End Door 2k.fbx
+  artifactKey: Guid(d434e01eb42135241b45ac7510247078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/End Door 2k.fbx using Guid(d434e01eb42135241b45ac7510247078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7340db325c6211aa12049383a63f518a') in 0.045182 seconds
+  Import took 0.057197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.557980 seconds.
+  path: Assets/End Door 2k 1.fbx
+  artifactKey: Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/End Door 2k 1.fbx using Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed48a623718163c00e9c684414204cfb') in 0.051416 seconds
+  Import took 0.076579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.622847 seconds.
+  path: Assets/End Door 2k 1.fbx
+  artifactKey: Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/End Door 2k 1.fbx using Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0aeff8e9f481572e567dd1cfcbf421') in 0.051244 seconds
+  Import took 0.086729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.856035 seconds.
+  path: Assets/Door_Roughness.png
+  artifactKey: Guid(eb261c9043843ac47860a29a2f41fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door_Roughness.png using Guid(eb261c9043843ac47860a29a2f41fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b911f940b9c690c9b4822d3ed7ddce') in 0.041355 seconds
+  Import took 0.047470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.402624 seconds.
+  path: Assets/Door_Base_color.png
+  artifactKey: Guid(dc9abd0c00013b04d9c280a60f13652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door_Base_color.png using Guid(dc9abd0c00013b04d9c280a60f13652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3bf79dc6b07aa4a1c8affd30f85eb3') in 0.020451 seconds
+  Import took 0.025336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997085 seconds.
+  path: Assets/Door_Metallic.png
+  artifactKey: Guid(002dc62b6a4b8c441b5ec8c94a288565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door_Metallic.png using Guid(002dc62b6a4b8c441b5ec8c94a288565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60f2c8e6174f6b9dc8da5cfa9624a5a') in 0.018019 seconds
+  Import took 0.152188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.847301 seconds.
+  path: Assets/Door_Normal.png
+  artifactKey: Guid(c595da7a5a58d564eaf2d6913f3d60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door_Normal.png using Guid(c595da7a5a58d564eaf2d6913f3d60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e184dc2db343e3fb7cea6d92f7bb69a') in 0.021273 seconds
+  Import took 0.398992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.574683 seconds.
+  path: Assets/End Door 2k 1.fbx
+  artifactKey: Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/End Door 2k 1.fbx using Guid(f00608b2442105345ba78a8765b839c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e718905b7c2612b725cca2e24596f7') in 0.235151 seconds
+  Import took 0.273019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.236169 seconds.
+  path: Assets/Materials/Door.mat
+  artifactKey: Guid(2939d345001d510429c22404d71f125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Door.mat using Guid(2939d345001d510429c22404d71f125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4da3e557ccdccbc1b0917a53e750d8') in 0.078877 seconds
+  Import took 0.333534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004408 seconds.
+  path: Assets/Materials/Door.mat
+  artifactKey: Guid(2939d345001d510429c22404d71f125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Door.mat using Guid(2939d345001d510429c22404d71f125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4da3e557ccdccbc1b0917a53e750d8') in 0.028494 seconds
+  Import took 0.033589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.184810 seconds.
+  path: Assets/Prefabs/TV.prefab
+  artifactKey: Guid(5ec0fe22c0878a34e9bc712473169c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TV.prefab using Guid(5ec0fe22c0878a34e9bc712473169c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a100ab769e869e4d88a78a920c944754') in 0.164695 seconds
+  Import took 0.198681 seconds .
+
