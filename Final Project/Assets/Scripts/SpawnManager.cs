@@ -5,16 +5,16 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] spawnPoints;
+    private GameObject[] Spawner;
     [SerializeField]
-    GameObject objectPrefab;
+    GameObject LightRemote;
     // Start is called before the first frame update
     void Start()
     {
         //spawnPoints = GameObject.FindGameObjectsWithTag("Spawn");
-        foreach (GameObject spawn in spawnPoints)
+        foreach (GameObject spawn in Spawner)
         {
-            GameObject spawnObj = Instantiate(objectPrefab, spawn.transform, false);
+            GameObject spawnObj = Instantiate(LightRemote, spawn.transform, false);
             objectScript objScript = spawnObj.GetComponent<objectScript>();
             objScript.floatSpeed = Random.Range(1, 3);
             //spawnObj.GetComponent<objectScript>().floatSpeed = Random.Range(1, 3);
@@ -29,9 +29,4 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

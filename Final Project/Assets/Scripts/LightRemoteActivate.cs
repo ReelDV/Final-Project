@@ -8,6 +8,8 @@ public class LightRemoteActivate : MonoBehaviour
 {
     [SerializeField]
     Light RealLight;
+    [SerializeField]
+    GameObject Cover;
     private XRGrabInteractable grabInteractable;
     void Awake()
     {
@@ -18,6 +20,7 @@ public class LightRemoteActivate : MonoBehaviour
     private void LightOn(ActivateEventArgs arg0)
     {
         RealLight.enabled = true;
+        Cover.SetActive(false);
 
     }
 
