@@ -35,3 +35,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Final Project/Assets/Scripts/Student Scripts.meta
+Final Project/Assets/Scripts/Student Scripts/RemoteActivate.cs
+Final Project/Assets/Scripts/Student Scripts/RemoteActivate.cs.meta
+Final Project/Assets/Scripts/Student Scripts/VignetteScript.cs
+Final Project/Assets/Scripts/Student Scripts/VignetteScript.cs.meta
+Final Project/Assets/Scripts/Student Scripts/VolumeChange.cs
+Final Project/Assets/Scripts/Student Scripts/VolumeChange.cs.meta
